@@ -12,7 +12,7 @@ Gestión laboral simplificada para trabajadores agrícolas de temporada.
 Plusit is a mobile application designed specifically for seasonal workers (formal temporary workers) in the agricultural, forestry, and packing sectors in the La Araucanía region, Chile.
 The project was created to solve a critical User Experience (UX) gap: the disconnect between Human Resources departments and field workers who face conditions of low digital literacy, limited hardware (low-end phones), and intermittent or no connectivity.
 
-## 3. Key Feautures (Value Proposition)
+## 2. Key Feautures (Value Proposition)
 * **Offline Mode:** Ensures the app remains functional in rural areas with intermittent or no signal.
 * **Fatt-Finger Friendly Design:** Large buttons and extended touch zones prevent errors for users with tired hands or damaged screens
 * **Performance Simulator:** A visual tool to track daily yield per crate and estimate earnings in real-time.
@@ -27,3 +27,12 @@ From this approach, a Value Proposition Canvas is used to determine what the peo
 
 ![Value Proposition Canvas](Assets/Value%20Proposition%20Canvas.jpg)
 
+## 4. Solutions Scope
+
+### UX Personas
+
+
+## 5. Benchmark
+
+
+## 6. Customer Journey Map
