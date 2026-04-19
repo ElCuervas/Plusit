@@ -28,11 +28,16 @@ From this approach, a Value Proposition Canvas is used to determine what the peo
 ![Value Proposition Canvas](Assets/Value%20Proposition%20Canvas.jpg)
 
 ## 4. Solutions Scope
+The Solutions Scope defines the functional boundaries of Plusit. As defined in the "Five Planes" model of UX, this scope acts as the bridge between our Strategy (the "why") and the Structure/Skeleton (the "how"). The objective of this scope is to prevent "feature creep" (uncontrolled accumulation of features) and maintain a laser focus on the critical needs of our seasonal workers.
 
 ### UX Personas
 
 
 ## 5. Benchmark
 
+## 6. Navigation Flow
 
-## 6. Customer Journey Map
+## 7. Customer Journey Map
+
+## 8. Wireframes
+
