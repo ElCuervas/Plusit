@@ -29,6 +29,23 @@ From this approach, a Value Proposition Canvas is used to determine what the peo
 
 ## 4. Solutions Scope
 The Solutions Scope defines the functional boundaries of Plusit. As defined in the "Five Planes" model of UX, this scope acts as the bridge between our Strategy (the "why") and the Structure/Skeleton (the "how"). The objective of this scope is to prevent "feature creep" (uncontrolled accumulation of features) and maintain a laser focus on the critical needs of our seasonal workers.
+In-Scope (What we are building):
+
+    Attendance & Scheduling: Offline-first attendance tracking and shift management.
+
+    Transparency: Simplified salary visualization and daily yield (kilos/crates) counters.
+
+    Communication: A simplified permit request system using voice notes and status "traffic light" indicators.
+
+    Extreme Accessibility: Interfaces designed with "Fat-Finger Friendly" principles and cognitive load reduction.
+
+Out-of-Scope (Constraints):
+
+    Complex Recruitment: No CV uploading or job application modules, as our target user is already hired.
+
+    Heavy Media: Video tutorials are excluded due to our users' mobile data constraints.
+
+    Full HR Accounting: The app does not replace HR accounting software; it acts solely as a simplified UI to visualize data already processed by the company.
 
 ### UX Personas
 
