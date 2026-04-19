@@ -1,5 +1,5 @@
 # Plusit 
-Gestión laboral simplificada para trabajadores de temporada.
+Streamlined labor management app for seasonal workers.
 
 ## Team
 - **Sebastian Aillapan** 
