@@ -32,16 +32,16 @@ The Solutions Scope defines the functional boundaries of Plusit. As defined in t
 
 In-Scope (What we are building):
 
-* Attendance & Scheduling: Offline-first attendance tracking and shift management.
-* Transparency: Simplified salary visualization and daily yield (kilos/crates) counters.
-* Communication: A simplified permit request system using voice notes and status "traffic light" indicators.
-* Extreme Accessibility: Interfaces designed with "Fat-Finger Friendly" principles and cognitive load reduction.
+* **Attendance & Scheduling:** Offline-first attendance tracking and shift management.
+* **Transparency:** Simplified salary visualization and daily yield (kilos/crates) counters.
+* **Communication:** A simplified permit request system using voice notes and status "traffic light" indicators.
+* **Extreme Accessibility:** Interfaces designed with "Fat-Finger Friendly" principles and cognitive load reduction.
 
 Out-of-Scope (Constraints):
 
-* Complex Recruitment: No CV uploading or job application modules, as our target user is already hired.
-* Heavy Media: Video tutorials are excluded due to our users' mobile data constraints.
-* Full HR Accounting: The app does not replace HR accounting software; it acts solely as a simplified UI to visualize data already processed by the company.
+* **Complex Recruitment:** No CV uploading or job application modules, as our target user is already hired.
+* **Heavy Media:** Video tutorials are excluded due to our users' mobile data constraints.
+* **Full HR Accounting:** The app does not replace HR accounting software; it acts solely as a simplified UI to visualize data already processed by the company.
 
 ### UX Personas
 
