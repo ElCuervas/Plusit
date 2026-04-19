@@ -1,5 +1,5 @@
 # Plusit 
-Gestión laboral simplificada para trabajadores agrícolas de temporada.
+Gestión laboral simplificada para trabajadores de temporada.
 
 ## Team
 - **Sebastian Aillapan** 
