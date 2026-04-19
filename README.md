@@ -1,5 +1,5 @@
 # Plusit 
-## Gestión laboral simplificada para trabajadores agrícolas de temporada.
+#### Gestión laboral simplificada para trabajadores agrícolas de temporada.
 
 ## About the Project
 ### Plusit is a mobile application designed specifically for seasonal workers (formal temporary workers) in the agricultural, ### forestry, and packing sectors in the La Araucanía region, Chile.
