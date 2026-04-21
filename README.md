@@ -45,7 +45,9 @@ Out-of-Scope (Constraints):
 
 ### UX Personas
 
-
+![UX_Persona1](Assets/1.png)
+![UX_Persona2](Assets/2.png)
+![UX_Persona3](Assets/3.png)
 ## 5. Benchmark
 
 ## 6. Navigation Flow
