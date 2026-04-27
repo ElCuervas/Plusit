@@ -59,7 +59,7 @@ Products Evaluated:
 * **Analog Competitor:** Agroptima (Field-based agricultural task management).
 
 * **Design Reference:** BancoEstado (Chilean standard for accessibility and RUT-based login).
-
+![Benchmark](Assets/BenchMarking.jpeg)
 
 
 
