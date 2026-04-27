@@ -52,6 +52,13 @@ Out-of-Scope (Constraints):
 In order to develop an application that meets the expectations and needs of users, it is essential to carry out an exhaustive analysis of existing applications on the market, especially those that are direct competitors. This process, known as benchmarking, allows us to identify both the shortcomings and the positive aspects of these applications, in order to integrate them optimally into our own product.
 
 By studying competing applications, we can learn from their mistakes and avoid repeating them in our application. In addition, we can identify successful features and functionalities that we can adopt and implement in our solution, thus providing a superior experience to our users.
+Products Evaluated: 
+
+* **Direct Competitors:** Buk / Talana (Chilean HR apps focused on office environments).
+
+* **Analog Competitor:** Agroptima (Field-based agricultural task management).
+
+* **Design Reference:** BancoEstado (Chilean standard for accessibility and RUT-based login).
 
 
 
