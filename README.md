@@ -71,6 +71,7 @@ Products Evaluated:
 This section presents the blueprint layout of the platform's core interfaces. The following wireframes illustrate the user journey from initial authentication to essential administrative actions, ensuring a clean, accessible, and user-centered operational flow.
 
 **Wireframe - Login, Sign Up & Home Process:** Conceptualizes the user authentication lifecycle and onboarding path toward the main dashboard.
+
 ![Login](Assets/wireframe/Principios/Login.png)
 ![Login2](Assets/wireframe/Principios/Login%202.png)
 ![Register](Assets/wireframe/Principios/Register.png)
