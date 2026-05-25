@@ -2,17 +2,17 @@
 Streamlined labor management app for seasonal workers.
 
 ## Team
-- **Sebastian Aillapan** 
-- **John Fernandez**
+- **Sebastian Aillapan (Project Manager and Analyst)** 
+- **John Fernandez (Designer and Analyst)**
     
 ## Figma Links
-
+* [Plusit Interactive Design & Prototypes](https://www.figma.com/design/9IAGdbV9y2dXPuQIlkDHqM/Plusit?node-id=0-1&t=w2iEPmNojqyeBq7a-1)
 
 ## 1. About the Project
 Plusit is a mobile application designed specifically for seasonal workers (formal temporary workers) in the agricultural, forestry, and packing sectors in the La Araucanía region, Chile.
 The project was created to solve a critical User Experience (UX) gap: the disconnect between Human Resources departments and field workers who face conditions of low digital literacy, limited hardware (low-end phones), and intermittent or no connectivity.
 
-## 2. Key Feautures (Value Proposition)
+## 2. Key Features (Value Proposition)
 * **Offline Mode:** Ensures the app remains functional in rural areas with intermittent or no signal.
 * **Fatt-Finger Friendly Design:** Large buttons and extended touch zones prevent errors for users with tired hands or damaged screens
 * **Performance Simulator:** A visual tool to track daily yield per crate and estimate earnings in real-time.
@@ -65,7 +65,27 @@ Products Evaluated:
 
 ## 6. Navigation Flow
 
+The navigation architecture of Plusit is designed with a **Dashboard-centric (Hub-and-Spoke)** pattern. This structure is specifically chosen to reduce cognitive load for seasonal workers with low digital literacy, as it provides a central, familiar starting point (the Home screen) for all primary tasks and prevents users from getting lost in deep, nested menus.
+Key features of this navigation flow include:
+* **Centralized Hub:** Every operational module (Salary Simulator, Shift Swap, Benefits, Performance, and Payments) is directly accessible from the main dashboard with a single tap.
+* **Global Navigation Shortcut:** A global "+" button is integrated into the bottom navigation bar, providing instant, single-tap redirection to the Requests/Permits module from any screen.
+* **Linear Task Flows:** Sub-processes, such as shift publishing or viewing detailed monthly payouts, follow a strict linear flow with clear back navigation to maintain context.
+Below is the conceptual navigation flow of the Plusit application:
+
+![Navigation Flow](Assets/Navegation%20Flow.jpg)
+
 ## 7. Customer Journey Map
+
+The Customer Journey Map outlines the daily work cycle of **Héctor**, a 52-year-old seasonal harvester with over 20 years of experience in manual labor. Due to physical fatigue, calloused hands, and limited digital literacy, Héctor struggles with standard complex mobile interfaces. 
+This map visualizes his journey across five key touchpoints in the Plusit application:
+1. **Shift Swapping:** Coordinating schedule changes with peers to balance labor and family events.
+2. **Harvesting & Yield Input:** Logging daily crates in real-time and calculating earnings using the simplified, oversized numeric keypad.
+3. **Requesting Leave:** Submitting emergency permissions via voice note directly from the field, triggered easily using the navbar shortcut (+).
+4. **Redeeming Benefits:** Accessing and claiming company incentives and performance-based rewards.
+5. **Payout Day:** Reviewing monthly salary breakdowns, bonuses, and deductions in a simplified and transparent visual dashboard.
+The journey demonstrates how Plusit's offline-first database, "fat-finger-friendly" touch zones, voice inputs, and visual status indicators directly mitigate the worker's field-based pain points.
+
+![Customer Journey Map](Assets/Customer%20journey%20map.png)
 
 ## 8. Wireframes
 This section presents the blueprint layout of the platform's core interfaces. The following wireframes illustrate the user journey from initial authentication to essential administrative actions, ensuring a clean, accessible, and user-centered operational flow.
