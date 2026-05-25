@@ -62,6 +62,8 @@ Products Evaluated:
 
 ![Benchmark](Assets/BenchMarking.jpeg)
 
+👉 **[Read the full Competitive Benchmark Analysis here](BENCHMARK.md)**
+
 
 ## 6. Navigation Flow
 
