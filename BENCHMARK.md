@@ -1,4 +1,5 @@
 # Plusit Competitive Benchmark Analysis
+> **UX Element Plane: Strategy & Scope**<br>
 
 This document contains the complete and structured competitive benchmark analysis for the **Plusit** project, aligned with the Strategy and Scope planes of the UX Elements model.
 
