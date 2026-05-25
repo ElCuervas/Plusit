@@ -119,8 +119,8 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 
 **HD
 Authentication Flow: Accessible Login
-*![Login](Assets/HD/Login.png)*
-*![Login2](Assets/HD/Login.png)*
+*![Login](Assets/HD/Login1.png)*
+*![Login2](Assets/HD/Login2.png)*
 
 **The UX Challenge:** [cite_start]Seasonal agricultural workers often have low digital literacy, frequently forget complex alphanumeric passwords, and struggle with small native keyboards on low-end devices[cite: 1615, 1762].
 
