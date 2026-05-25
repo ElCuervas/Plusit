@@ -91,6 +91,7 @@ The journey demonstrates how Plusit's offline-first database, "fat-finger-friend
 This section presents the blueprint layout of the platform's core interfaces. The following wireframes illustrate the user journey from initial authentication to essential administrative actions, ensuring a clean, accessible, and user-centered operational flow.
 
 **Wireframe - Login, Sign Up & Home Process:** Conceptualizes the user authentication lifecycle and onboarding path toward the main dashboard.
+
 ![Login](Assets/wireframe/Principios/Login.png)
 ![Login2](Assets/wireframe/Principios/Login%202.png)
 ![Register](Assets/wireframe/Principios/Register.png)
@@ -98,12 +99,14 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 
 
 **Wireframe - Time Off Request Process:** Outlines the simplified flow for submitting quick administrative permissions and short-term sick leaves.
+
 ![Permiso-dibujo](Assets/wireframe/Permisos/permisos_dibujo.png)
 ![Permiso-historial](Assets/wireframe/Permisos/Permisos%20(Historial).png)
 ![Permiso-proceso](Assets/wireframe/Permisos/Permisos%20(Solicitud).png)
 
 
 **Wireframe - Vacation Request Process:** Displays the interactive calendar-driven steps to plan and request extended annual leave.
+
 ![Vacaciones-dibujo](Assets/wireframe/Vacaciones/Vacaciones_dibujo.png)
 ![Vacaciones-historial](Assets/wireframe/Vacaciones/Vacaciones%20(Historial).png)
 ![Vacaciones-proceso](Assets/wireframe/Vacaciones/Vacaciones%20(Solicitud).png)
