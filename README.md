@@ -114,6 +114,7 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 ![Vacaciones-proceso](Assets/wireframe/Vacaciones/Vacaciones%20(Solicitud).png)
 
 **Wireframe - Salary Simulator Process:** Visualizes the dynamic calculation tool designed to estimate payroll metrics, bonuses, and net pay deductions.
+
 ![Simulador-dibujo](Assets/wireframe/Simulador%20de%20sueldo/Simulador_sueldo_dibujo.png)
 ![Simulador-historial](Assets/wireframe/Simulador%20de%20sueldo/Simulador.png)
 ![Simulador-proceso](Assets/wireframe/Simulador%20de%20sueldo/Simulador-Resultado.png)
@@ -121,16 +122,115 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 
 ## 9. HD Screens
 
-### Authentication Flow: Initial & Saved Login
+### 1. Authentication & Onboarding Flow
 
-![Login](Assets/HD/Login1.png)    ![Login2](Assets/HD/Login2.png)
+![Login](Assets/HD/Login1.png)
+![Login2](Assets/HD/Login2.png)
+![Registration](Assets/HD/Registro.png)
 
-**The UX Challenge:** Seasonal agricultural workers often struggle with complex alphanumeric passwords and small native device keyboards. This leads to login fatigue, input errors, and frustration, especially on low-end devices with damaged screens.
+**The UX Challenge:** Seasonal agricultural workers often struggle with complex alphanumeric passwords, lengthy signup forms, and small native device keyboards. This leads to input errors and high drop-off rates during setup, especially on low-end devices with damaged screens.
 
 **Our Solution:**
-* **Standard Login (Screen 1):** We replaced the traditional email requirement with the Chilean National ID (RUT) and a simple 4-digit PIN. This aligns with highly accessible mental models (similar to local banking apps like BancoEstado) and drastically reduces the cognitive load required to access the platform.
-* **Fast Login & Custom Keypad (Screen 2):** When the "Recordarme" (Remember me) feature is activated, the app recognizes the user's device. Upon returning, the user is greeted personally (e.g., "Don Héctor") along with their profile picture. To completely eliminate the friction of invoking a native mobile keyboard, we integrated a custom, oversized numeric keypad directly into the UI. This "Fat-Finger Friendly" design ensures error-free input for workers with tired hands.
+* **RUT & PIN Authentication (Screen 1):** We replaced the traditional email requirement with the Chilean National ID (RUT) and a simple 4-digit PIN. This aligns with familiar mental models (like local bank apps) and reduces the cognitive load.
+* **Cached Quick-Login & Custom Keypad (Screen 2):** When "Recordarme" (Remember me) is active, the app displays the user's name (using the mockup's example: "Don Héctor") and avatar. We integrated a custom, extra-large numeric keypad to completely bypass the native system keyboard, ensuring error-free input for tired hands.
+* **Simplified Registration (Screen 3):** The sign-up form requires only essential data (RUT, Name, Phone, and PIN setup) with large text boxes, clear focus rings, and numerical formatting.
 
+---
 
+### 2. Main Dashboard & Configuration Flow
 
+![Home](Assets/HD/Home.png)
+![Profile](Assets/HD/Perfil.png)
+![Configuration](Assets/HD/Configuracion.png)
 
+**The UX Challenge:** Densely packed menus and small text links cause frustration and confusion for workers. Accessing profile info or key settings should not require deep navigation path searches.
+
+**Our Solution:**
+* **Dashboard Home (Screen 1):** Organized around a clean, Hub-and-Spoke grid layout. Key operations (Simulation, Shift Swap, Benefits) are represented by large, high-contrast card buttons. A global "+" shortcut in the navbar provides instant access to requests.
+* **Simple Profile Card (Screen 2):** Displays essential contract info, supervisor name, and company telephone in a simple, scroll-free layout with extra-large text sizes.
+* **System Accessibility Toggles (Screen 3):** Simple toggle switches for high contrast mode and text size scaling to customize readability under changing sunlight conditions.
+
+---
+
+### 3. Salary Simulation & Performance Flow
+
+![Simulator](Assets/HD/Simulador.png)
+![ResultadoSimulador](Assets/HD/ResultadoSimulador.png)
+![Performance](Assets/HD/Rendimiento.png)
+![Performance Detail](Assets/HD/VerDetalleRendimiento.png)
+
+**The UX Challenge:** Manual yield tracking (kilos/crates) under direct sunlight is difficult. Logging numbers on a standard keyboard with calloused, dirty, or wet fingers leads to constant typos and payment disputes.
+
+**Our Solution:**
+* **Simulator Input (Screen 1):** Features simple crop cards (Apple, Blueberry, Potato) with friendly graphics, unit toggles (Kg vs Bins), and an integrated circular numeric keypad to enter harvest quantities easily.
+* **Simulated Result (Screen 2):** Displays a transparent, simplified breakdown of estimated earnings immediately after tapping the green "Simular" action.
+* **Visual Performance Tracking (Screen 3 & 4):** Clean progress bars showing progress toward the daily target, alongside weekly yield comparison bar charts, entirely avoiding dense spreadsheets.
+
+---
+
+### 4. Shift Swapping Flow
+
+![Shift Swap](Assets/HD/Intercambio.png)
+![Post Shift](Assets/HD/PublicarTurno.png)
+
+**The UX Challenge:** Coordinating schedule changes with peers verbally or on paper is chaotic, leading to scheduling gaps and miscommunications between workers and supervisors.
+
+**Our Solution:**
+* **Swapping Dashboard (Screen 1):** Lists available shift trades offered by coworkers as clear, actionable cards detailing the day, sector, and colleague's name.
+* **One-Tap Posting (Screen 2):** Simple form to publish a shift for trade using large radio buttons, facilitating peer-to-peer schedule coordination in seconds.
+
+---
+
+### 5. Permits & Requests Flow
+
+![Requests](Assets/HD/Permisos.png)
+![Request Form](Assets/HD/SolicitarPermiso.png)
+![Medical Permit](Assets/HD/PermisoMedico.png)
+![Personal Permit](Assets/HD/PermisoPersonal.png)
+![Status Indicator](Assets/HD/EstadoPermisos.png)
+![History](Assets/HD/PermisosHistorial.png)
+
+**The UX Challenge:** Having to write detailed text descriptions for administrative requests is a barrier for users with low digital literacy. Additionally, not knowing the approval status causes worker anxiety.
+
+**Our Solution:**
+* **Voice Note Requests (Screen 1, 2, 3 & 4):** Permits are requested by category. The user can hold a large microphone button to record a voice note explaining the emergency, completely avoiding textual entry.
+* **Traffic Light Status Tracking (Screen 5 & 6):** Displays permit approvals in a clear list utilizing status lights (Green: Approved, Yellow: Pending, Red: Rejected) along with an audit log.
+
+---
+
+### 6. Vacations Flow
+
+![Request Vacation](Assets/HD/SolicitarVacaciones.png)
+![Vacation History](Assets/HD/HIstorialVacaciones.png)
+
+**The UX Challenge:** Standard calendar picking widgets are tiny and extremely difficult to click precisely, causing errors in vacation date selections.
+
+**Our Solution:**
+* **Oversized Calendar Selector (Screen 1):** A spacious calendar view designed with generous touch zones to easily select start and end dates.
+* **Progressive Day Tracking (Screen 2):** Color-coded progress bars showing normal vs. progressive vacation days left, making PTO balances transparent.
+
+---
+
+### 7. Payments Flow
+
+![Payments List](Assets/HD/VerPagos.png)
+![Payment Details](Assets/HD/VerDetallePagoMes.png)
+
+**The UX Challenge:** Corporate payroll PDFs are cluttered with legal jargon and tiny text, making it nearly impossible for workers to understand how their final pay is calculated.
+
+**Our Solution:**
+* **Simple Month Banners (Screen 1):** Clean list grouped by month, showing the final net payout in a large, bold font.
+* **Visual Breakdown Chart (Screen 2):** Net pay is split into a simple bar chart representing base pay, yield bonuses, and deductions, making the payroll calculations understandable.
+
+---
+
+### 8. Benefits & Family Sharing Flow
+
+![Redeem Benefits](Assets/HD/Beneficios.png)
+![Family Share](Assets/HD/CompartirFamiliar.png)
+
+**The UX Challenge:** Accessing company rewards is difficult, and workers need a quick, distraction-free way to notify family members of their work status without typing.
+
+**Our Solution:**
+* **Incentive Catalog (Screen 1):** Simple grid cards representing rewards (food baskets, gear, vouchers) with clear point costs and a one-tap claim action.
+* **WhatsApp Status Sharing (Screen 2):** A dedicated screen to share shift status or safety alerts. The worker can tap a button that automatically launches WhatsApp with a pre-written status message.
