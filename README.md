@@ -121,9 +121,7 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 
 ### Authentication Flow: Initial & Saved Login
 
-![Login](Assets/HD/Login1.png)
-
-![Login2](Assets/HD/Login2.png)
+![Login](Assets/HD/Login1.png)    ![Login2](Assets/HD/Login2.png)
 
 **The UX Challenge:** Seasonal agricultural workers often struggle with complex alphanumeric passwords and small native device keyboards. This leads to login fatigue, input errors, and frustration, especially on low-end devices with damaged screens.
 
