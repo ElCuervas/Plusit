@@ -117,17 +117,16 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 ![Simulador-proceso](Assets/wireframe/Simulador%20de%20sueldo/Simulador-Resultado.png)
 
 
-##HD Screens 
+##HD Screens
 ** Authentication Flow: Accessible Login
+
 ![Login](Assets/HD/Login1.png)
+
 ![Login2](Assets/HD/Login2.png)
 
-**The UX Challenge:** [cite_start]Seasonal agricultural workers often have low digital literacy, frequently forget complex alphanumeric passwords, and struggle with small native keyboards on low-end devices[cite: 1615, 1762].
+**The UX Challenge:**Seasonal agricultural workers often have low digital literacy, frequently forget complex alphanumeric passwords, and struggle with small native keyboards on low-end devices.
 
 **Our Solution:**
-* **No Email Required (Standard Login):** [cite_start]We completely eliminated standard email authentication[cite: 1615]. [cite_start]Users log in using their Chilean National ID (RUT) and a simple 4-digit PIN, based on the highly accessible mental model of local banking apps like BancoEstado[cite: 1607, 1763].
-* **Device Recognition (Fast Login):** [cite_start]The app remembers the user (e.g., "Don Héctor") and their device[cite: 1791, 1794]. The next time they open the app, they only face a friendly greeting and a quick request for their PIN, significantly reducing interaction friction.
-* **Custom Fat-Finger Keypad:** [cite_start]Instead of relying on the phone's native keyboard, we designed an integrated, oversized numeric keypad directly on the screen[cite: 1797]. [cite_start]This guarantees error-free input for workers with tired, thick hands or cracked screens[cite: 1484, 1798].
 
 
 
