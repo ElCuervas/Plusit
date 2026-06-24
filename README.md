@@ -260,3 +260,77 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 **Our Solution:**
 * **Incentive Catalog (Screen 1):** Simple grid cards representing rewards (food baskets, gear, vouchers) with clear point costs and a one-tap claim action.
 * **WhatsApp Status Sharing (Screen 2):** A dedicated screen to share shift status or safety alerts. The worker can tap a button that automatically launches WhatsApp with a pre-written status message.
+
+
+## 10. Final HD Screens (Advance II Refactor)
+> **UX Element Plane: Surface**<br>
+
+Based on peer feedback and usability testing, we executed a strategic pivot ("Less is more"), removing feature bloat (gamification, social sharing) to focus entirely on the MVP: an **Instant Salary Tracker** and **Offline Permits**. 
+
+### 1. Authentication Flow (Frictionless Access)
+![Login](Assets/Plusit_Refactor/Login_2.png)
+![Login Auth](Assets/Plusit_Refactor/Login-auth.png)
+![Registration](Assets/Plusit_Refactor/Registro_3.png)
+
+* **The Fix:** We removed the custom on-screen keyboard from the initial prototype that was causing heuristic consistency issues. 
+* **The Solution:** The app now relies on native OS keyboards for standard input and features a streamlined PIN/Biometric pad for quick access, reducing cognitive load for returning workers.
+
+### 2. Main Dashboard & Contract Profile
+![Home](Assets/Plusit_Refactor/Home_3.png)
+![Profile](Assets/Plusit_Refactor/Perfil_3.png)
+
+* **The Fix:** Previous menus were densely packed. 
+* **The Solution:** A contextual Home screen that prioritizes proactive information: upcoming shifts, recent permit status, and instant salary visualization. The Profile acts as a digital contract, giving workers immediate access to their formal employer data and a direct call button for their supervisor.
+
+### 3. The Core MVP: Instant Salary Tracker
+![Salary Tracker](Assets/Plusit_Refactor/Vista%20Sueldo.png)
+
+* **The Fix:** Complex yield calculators and gamified points were removed.
+* **The Solution:** A high-contrast, visually striking dashboard where seasonal workers can instantly see their accumulated monthly salary and a transparent breakdown of their daily approved earnings. This builds financial trust and eliminates payroll anxiety.
+
+### 4. Offline Permits (Highly Optimized Forms)
+![Permits Home](Assets/Plusit_Refactor/Permisos_3.png)
+![Request Permit](Assets/Plusit_Refactor/Solicitar%20Permiso.png)
+
+* **The Fix:** Initial voice-note features proved technologically unfeasible for poor connectivity areas and caused UI friction.
+* **The Solution:** A highly optimized, 4-step standard form utilizing native calendar selectors and large text areas. Usability testing proved this form allows critical medical absence requests to be completed in under 35 seconds.
+
+### 5. Shift Swapping (Simplified)
+![Shifts Hub](Assets/Plusit_Refactor/Turnos_2.png)
+![Offer Shift](Assets/Plusit_Refactor/Ofrecer%20Turnos.png)
+
+* **The Fix:** Complex marketplace mechanics were scrapped.
+* **The Solution:** A linear, direct peer-to-peer shift swapping tool. Workers can select a scheduled day and offer it to a specific colleague or the general pool with just three taps.
+
+---
+
+## 10. Advance II: Heuristic Evaluation Results
+As mandated for the Advance II deliverables, our initial prototype underwent a rigorous peer-review Heuristic Evaluation. The critical breaches identified were:
+
+* **Breach of Heuristic #8 (Aesthetic and minimalist design):** The initial UI suffered from chaotic composition, an overwhelming use of bright green tones, and a lack of typographic hierarchy, which drastically increased cognitive load.
+* **Breach of Heuristic #4 (Consistency and standards):** Unnecessary duplication of the native OS numeric keyboard within the app interface.
+* **Breach of Heuristic #2 (Match between system & real world):** Misleading button language (e.g., implying immediate family linking instead of sending external SMS invites).
+
+**Resolution:** These findings were the primary driver for our complete UI refactor, resulting in the clean, accessible, off-white, and navy-blue design system seen in the final HD screens.
+
+---
+
+## 11. Advance II: Corrections & Feedback Implementation
+To meet the rubric requirements of explicitly stating changes based on feedback (from professors, TAs, and peers), we implemented the following corrections:
+
+1. **Strategic Pivot (Scope Reduction):** Instructed by the professor to "do less, but better", we completely removed the *Gamified Benefits System* and the *Social/Family Sharing Modules*.
+2. **Color Palette Overhaul:** Replaced the "overwhelming green" with a professional high-contrast palette (Navy Blue text on Off-White backgrounds), reserving Emerald Green strictly for primary Call-to-Action buttons.
+3. **Form Refinement:** Replaced the experimental voice-note feature with a highly optimized, oversized standard text/date form to ensure stability and speed.
+4. **Component Standardization:** Enforced strict Auto-Layout rules in Figma to ensure consistent padding, card sizes, and alignment across all screens.
+
+---
+
+## 12. Advance II: Accessibility Themes
+Based on the accessibility workshops discussed in class, Plusit incorporates specific design decisions tailored to the extreme physical environment of agricultural workers:
+
+* **Fat-Finger Friendly Touch Targets:** Buttons, form fields, and navigation icons are oversized to accommodate workers operating with calloused hands or wearing work gloves.
+* **High Contrast (WCAG Compliance):** The transition to dark typography on light backgrounds prevents glare issues when the app is used outdoors under direct sunlight.
+* **Offline-First Resilience:** The architecture is designed to cache permit requests and shift data locally, ensuring the app remains usable in rural fields with zero cellular reception. 
+
+---
+*End of Advance II Documentation.*
