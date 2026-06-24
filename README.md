@@ -299,6 +299,45 @@ Based on peer feedback and usability testing, we executed a strategic pivot ("Le
 
 ---
 
+## 9. Final HD Screens (Advance II Refactor)
+> **UX Element Plane: Surface**<br>
+
+Based on peer feedback and usability testing, we executed a strategic pivot ("Less is more"), removing feature bloat (gamification, social sharing) to focus entirely on the MVP: an **Instant Salary Tracker** and **Offline Permits**. 
+
+### 1. Authentication Flow (Frictionless Access)
+<img src="Assets/Plusit_Refactor/Login.png" width="250"> <img src="Assets/Plusit_Refactor/Login-auth.png" width="250"> <img src="Assets/Plusit_Refactor/Registro.png" width="250">
+
+* **The Fix:** We removed the custom on-screen keyboard from the initial prototype that was causing heuristic consistency issues. 
+* **The Solution:** The app now relies on native OS keyboards for standard input and features a streamlined PIN/Biometric pad for quick access.
+
+### 2. Main Dashboard, Profile & Settings
+<img src="Assets/Plusit_Refactor/Home.png" width="250"> <img src="Assets/Plusit_Refactor/Perfil.png" width="250"> <img src="Assets/Plusit_Refactor/Detalles%20Contrato.png" width="250">
+<br>
+<img src="Assets/Plusit_Refactor/Editar%20Perfil.png" width="250"> <img src="Assets/Plusit_Refactor/Configuracion.png" width="250">
+
+* **The Fix:** Previous menus were densely packed. 
+* **The Solution:** A contextual Home screen that prioritizes proactive information. The Profile and Contract Details act as a digital contract, giving workers immediate access to their formal employer data, alongside simple editing and configuration views.
+
+### 3. The Core MVP: Instant Salary Tracker
+<img src="Assets/Plusit_Refactor/Vista%20Sueldo.png" width="250">
+
+* **The Fix:** Complex yield calculators and gamified points were removed.
+* **The Solution:** A high-contrast, visually striking dashboard where seasonal workers can instantly see their accumulated monthly salary and a transparent breakdown of their daily approved earnings.
+
+### 4. Offline Permits (Highly Optimized Forms)
+<img src="Assets/Plusit_Refactor/Permisos.png" width="250"> <img src="Assets/Plusit_Refactor/Solicitar%20Permiso.png" width="250"> <img src="Assets/Plusit_Refactor/Confirmacion%20Permiso.png" width="250">
+
+* **The Fix:** Initial voice-note features proved technologically unfeasible for poor connectivity areas and caused UI friction.
+* **The Solution:** A highly optimized, 4-step standard form utilizing native calendar selectors and large text areas, ending with a clear visual confirmation screen.
+
+### 5. Shift Swapping (Simplified)
+<img src="Assets/Plusit_Refactor/Turnos.png" width="250"> <img src="Assets/Plusit_Refactor/Ofrecer%20Turnos.png" width="250"> <img src="Assets/Plusit_Refactor/Confirmacion%20Ofrecer%20turno.png" width="250">
+
+* **The Fix:** Complex marketplace mechanics were scrapped.
+* **The Solution:** A linear, direct peer-to-peer shift swapping tool. Workers can select a scheduled day, offer it to a colleague, and receive immediate visual feedback via a confirmation screen.
+
+---
+
 ## 10. Advance II: Heuristic Evaluation Results
 As mandated for the Advance II deliverables, our initial prototype underwent a rigorous peer-review Heuristic Evaluation. The critical breaches identified were:
 
@@ -328,3 +367,4 @@ Based on the accessibility workshops discussed in class, Plusit incorporates spe
 * **Offline-First Resilience:** The architecture is designed to cache permit requests and shift data locally, ensuring the app remains usable in rural fields with zero cellular reception. 
 
 ---
+*End of Advance II Documentation.*
