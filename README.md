@@ -7,6 +7,7 @@ Streamlined labor management app for seasonal workers.
     
 ## Figma Links
 * [Plusit Interactive Design & Prototypes](https://www.figma.com/design/9IAGdbV9y2dXPuQIlkDHqM/Plusit?node-id=0-1&t=w2iEPmNojqyeBq7a-1)
+* [Plusit Interactive Design V2](https://www.figma.com/design/2b7bzuXXubQs6zsVcVdrFo/Plusit-v2?node-id=0-1&t=HD4kwaPP9zrt9jUr-1)
 
 ## UX Design & Research Methodology (Garrett's Five Planes)
 To ensure a rigorous, user-centered development process, our research and design deliverables are structured according to **Jesse James Garrett's Five Planes of UX**:
