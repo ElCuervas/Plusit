@@ -262,19 +262,19 @@ This section presents the blueprint layout of the platform's core interfaces. Th
 * **WhatsApp Status Sharing (Screen 2):** A dedicated screen to share shift status or safety alerts. The worker can tap a button that automatically launches WhatsApp with a pre-written status message.
 
 
-# 10. Final HD Screens (Advance II Refactor)
+## 9. Final HD Screens (Advance II Refactor)
 > **UX Element Plane: Surface**<br>
 
 Based on peer feedback and usability testing, we executed a strategic pivot ("Less is more"), removing feature bloat (gamification, social sharing) to focus entirely on the MVP: an **Instant Salary Tracker** and **Offline Permits**. 
 
 ### 1. Authentication Flow (Frictionless Access)
-<img src="Assets/Plusit_Refactor/Login_2.png" width="250"> <img src="Assets/Plusit_Refactor/Login-auth.png" width="250"> <img src="Assets/Plusit_Refactor/Registro_3.png" width="250">
+<img src="Assets/Plusit_Refactor/Login.png" width="250"> <img src="Assets/Plusit_Refactor/Login-auth.png" width="250"> <img src="Assets/Plusit_Refactor/Registro.png" width="250">
 
 * **The Fix:** We removed the custom on-screen keyboard from the initial prototype that was causing heuristic consistency issues. 
 * **The Solution:** The app now relies on native OS keyboards for standard input and features a streamlined PIN/Biometric pad for quick access, reducing cognitive load for returning workers.
 
 ### 2. Main Dashboard & Contract Profile
-<img src="Assets/Plusit_Refactor/Home_3.png" width="250"> <img src="Assets/Plusit_Refactor/Perfil_3.png" width="250">
+<img src="Assets/Plusit_Refactor/Home.png" width="250"> <img src="Assets/Plusit_Refactor/Perfil.png" width="250">
 
 * **The Fix:** Previous menus were densely packed. 
 * **The Solution:** A contextual Home screen that prioritizes proactive information: upcoming shifts, recent permit status, and instant salary visualization. The Profile acts as a digital contract, giving workers immediate access to their formal employer data and a direct call button for their supervisor.
@@ -286,13 +286,13 @@ Based on peer feedback and usability testing, we executed a strategic pivot ("Le
 * **The Solution:** A high-contrast, visually striking dashboard where seasonal workers can instantly see their accumulated monthly salary and a transparent breakdown of their daily approved earnings. This builds financial trust and eliminates payroll anxiety.
 
 ### 4. Offline Permits (Highly Optimized Forms)
-<img src="Assets/Plusit_Refactor/Permisos_3.png" width="250"> <img src="Assets/Plusit_Refactor/Solicitar%20Permiso.png" width="250">
+<img src="Assets/Plusit_Refactor/Permisos.png" width="250"> <img src="Assets/Plusit_Refactor/Solicitar%20Permiso.png" width="250">
 
 * **The Fix:** Initial voice-note features proved technologically unfeasible for poor connectivity areas and caused UI friction.
 * **The Solution:** A highly optimized, 4-step standard form utilizing native calendar selectors and large text areas. Usability testing proved this form allows critical medical absence requests to be completed in under 35 seconds.
 
 ### 5. Shift Swapping (Simplified)
-<img src="Assets/Plusit_Refactor/Turnos_2.png" width="250"> <img src="Assets/Plusit_Refactor/Ofrecer%20Turnos.png" width="250">
+<img src="Assets/Plusit_Refactor/Turnos.png" width="250"> <img src="Assets/Plusit_Refactor/Ofrecer%20Turnos.png" width="250">
 
 * **The Fix:** Complex marketplace mechanics were scrapped.
 * **The Solution:** A linear, direct peer-to-peer shift swapping tool. Workers can select a scheduled day and offer it to a specific colleague or the general pool with just three taps.
@@ -328,4 +328,3 @@ Based on the accessibility workshops discussed in class, Plusit incorporates spe
 * **Offline-First Resilience:** The architecture is designed to cache permit requests and shift data locally, ensuring the app remains usable in rural fields with zero cellular reception. 
 
 ---
-*End of Advance II Documentation.*
